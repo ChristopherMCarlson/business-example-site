@@ -40,7 +40,7 @@
       color="indigo"
       app
     >
-      <span class="white--text">&copy; 2019</span>
+      <span class="white--text">&copy; 2019 CHRIS CARLSON</span>
     </v-footer>
   </v-app>
 </template>
