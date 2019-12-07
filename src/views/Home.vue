@@ -2,7 +2,7 @@
 <v-container fluid>
   <v-row justify='center'>
     <v-col justify='center' cols='auto'>
-      <v-img src='../assets/splashImage.jpg' height="70vh" max-width="100vw"></v-img>
+        <v-img src='../assets/splashImage.jpg' height="70vh" max-width="100vw"></v-img>
     </v-col>
   </v-row>
   <v-row justify='space-around'>
