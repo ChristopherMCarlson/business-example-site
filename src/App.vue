@@ -30,7 +30,7 @@
       dark
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Jefferson's Technologies</v-toolbar-title>
+      <v-toolbar-title>Carlson Web Designs</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
