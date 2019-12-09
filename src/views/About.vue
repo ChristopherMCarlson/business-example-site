@@ -60,5 +60,38 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row justify='space-around'>
+      <v-col justify='center' cols='auto'>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1104%2011th%20Ave%20S%20Nampa%2C%20ID%2083651&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
+
+<script>
+  export default {
+    data: () => ({
+      card1: false,
+      card2: false,
+    }),
+  }
+</script>
+
+<style>
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+  }
+  .gmap_canvas
+  {overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+  }
+  </style>
